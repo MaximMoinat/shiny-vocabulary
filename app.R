@@ -17,21 +17,26 @@ ui <- navbarPage(
   ),
   tabPanel("Standards per vocabulary",
            rpivotTableOutput("standardChart")
+  ),
+  tabPanel("Relationships between vocabularies",
+           rpivotTableOutput("relationFromTo")
   )
 )
 
 server <- function(input, output) {
-  vocabData <- reactive({
+  conceptStratified <- reactive({
     read.csv("stratified_concepts.csv")
   })
   
+  relationsStratified <- read.csv("stratified_relationships.csv")
+  
   output$default <- renderRpivotTable(
-    rpivotTable(data = vocabData(), vals = "CONCEPT_COUNT", aggregatorName = "Integer Sum")
+    rpivotTable(data = conceptStratified(), vals = "CONCEPT_COUNT", aggregatorName = "Integer Sum")
   )
   
   output$StandardConcepts <- renderRpivotTable(
     rpivotTable(
-      data = vocabData(), 
+      data = conceptStratified(), 
       rows = "DOMAIN_ID", 
       cols = "VOCABULARY_ID", 
       vals = "CONCEPT_COUNT", 
@@ -48,7 +53,7 @@ server <- function(input, output) {
   )
   output$rxnorm <- renderRpivotTable(
     rpivotTable(
-      data = vocabData(), 
+      data = conceptStratified(), 
       rows = "CONCEPT_CLASS_ID", 
       cols = "VOCABULARY_ID", 
       vals = "CONCEPT_COUNT", 
@@ -61,12 +66,22 @@ server <- function(input, output) {
   
   output$standardChart <- renderRpivotTable(
     rpivotTable(
-      data = vocabData(), 
+      data = conceptStratified(), 
       rows = "STANDARD_CONCEPT", 
       cols = "VOCABULARY_ID", 
       vals = "CONCEPT_COUNT", 
       aggregatorName = "Integer Sum",
       rendererName = "Stacked Bar Chart"
+    )
+  )
+  
+  output$relationFromTo <- renderRpivotTable(
+    rpivotTable(
+      data = relationsStratified, 
+      rows = c("FROM_VOCABULARY_ID","RELATIONSHIP_ID"), 
+      cols = "TO_VOCABULARY_ID", 
+      vals = "RELATIONSHIP_COUNT", 
+      aggregatorName = "Integer Sum"
     )
   )
 }
