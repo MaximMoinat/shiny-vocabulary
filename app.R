@@ -12,6 +12,9 @@ ui <- navbarPage(
   tabPanel("Standard Concepts per Domain and Vocabulary",
            rpivotTableOutput("StandardConcepts")
   ),
+  tabPanel("Treemap per Domain and Vocabulary",
+           rpivotTableOutput("breakdown")
+  ),
   tabPanel("RxNorm",
            rpivotTableOutput("rxnorm")
   ),
@@ -47,10 +50,29 @@ server <- function(input, output) {
         DOMAIN_ID=c("Condition", 'Device', 'Drug', 'Procedure', 'Measurement', 'Observation', 'Unit')
       ),
       exclusions = list(
-        VOCABULARY_ID=c("UB04 Pri Typ of Adm", "VOCABULARY")
+        VOCABULARY_ID=c("UB04 Pri Typ of Adm", "VOCABULARY"),
+        INVALID_REASON=c("D", "U")
       )
     )
   )
+  
+  output$breakdown <- renderRpivotTable(
+    rpivotTable(
+      data = conceptStratified(), 
+      rows = c("DOMAIN_ID","STANDARD_CONCEPT","VOCABULARY_ID"), 
+      vals = "CONCEPT_COUNT", 
+      aggregatorName = "Integer Sum",
+      rendererName = "Treemap",
+      inclusions = list(
+        DOMAIN_ID=c("Condition", 'Device', 'Drug', 'Procedure', 'Measurement', 'Observation'),
+        INVALID_REASON=c(NULL)
+      ),
+      exclusions = list(
+        INVALID_REASON=c("D", "U")
+      )
+    )
+  )
+  
   output$rxnorm <- renderRpivotTable(
     rpivotTable(
       data = conceptStratified(), 
