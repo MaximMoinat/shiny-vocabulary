@@ -6,7 +6,7 @@ SELECT
     concept.invalid_reason,
     COUNT(*) AS concept_count
 FROM
-    @cdmSchema.concept
+    @vocabSchema.concept
 GROUP BY
     concept.vocabulary_id,
     concept.domain_id,

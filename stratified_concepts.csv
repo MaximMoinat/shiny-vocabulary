@@ -1,529 +1,716 @@
 "VOCABULARY_ID","DOMAIN_ID","CONCEPT_CLASS_ID","STANDARD_CONCEPT","INVALID_REASON","CONCEPT_COUNT"
-"ABMS","Provider Specialty","Specialty","S",NA,97
-"ABMS","Provider Specialty","Specialty",NA,"U",1
-"ABUCASIS_CIE9","Condition","Clinical Finding",NA,NA,16558
-"ABUCASIS_CIE9P","Procedure","Procedure",NA,NA,1931
-"ABUCASIS_MODALIDAD","Observation","Social Context",NA,NA,119
-"ABUCASIS_NUM_EVENTS","Observation","Admin Concept",NA,NA,10
-"ABUCASIS_PRINACTIVO","Drug","Substance",NA,NA,2280
-"ABUCASIS_TIP_PREST","Measurement","Lab Test",NA,NA,2807
-"ABUCASIS_TIP_VARIABL","Measurement","Clinical Observation",NA,NA,317
-"ABUCASIS_UD_MEDIDAS","Unit","Unit",NA,NA,35
+"ABMS","Provider","Physician Specialty","S",NA,87
+"ABMS","Provider","Physician Specialty",NA,"U",1
+"ABMS","Provider","Physician Specialty",NA,NA,10
 "ATC","Drug","ATC 1st","C",NA,14
 "ATC","Drug","ATC 2nd","C",NA,94
 "ATC","Drug","ATC 3rd","C",NA,267
-"ATC","Drug","ATC 4th","C",NA,886
+"ATC","Drug","ATC 4th","C",NA,889
 "ATC","Drug","ATC 4th",NA,"D",1
-"ATC","Drug","ATC 5th","C",NA,4889
+"ATC","Drug","ATC 5th","C",NA,5071
 "ATC","Drug","ATC 5th",NA,"D",60
+"CCAM","Procedure","Proc Group",NA,NA,41
+"CCAM","Procedure","Proc Hierarchy",NA,NA,1716
+"CCAM","Procedure","Procedure",NA,"D",285
+"CCAM","Procedure","Procedure",NA,"U",3
+"CCAM","Procedure","Procedure",NA,NA,8161
+"CDM","Metadata","CDM","S",NA,12
+"CDM","Metadata","Field","S",NA,883
+"CDM","Metadata","Table","S",NA,55
+"CMS Place of Service","Visit","Visit","S",NA,51
+"CMS Place of Service","Visit","Visit",NA,NA,9
+"CPT4","Device","CPT4","S",NA,2
+"CPT4","Device","CPT4 Modifier","S",NA,22
+"CPT4","Drug","CPT4","S",NA,4
+"CPT4","Drug","CPT4",NA,NA,124
+"CPT4","Drug","CPT4 Modifier","S",NA,1
+"CPT4","Meas Value","CPT4 Modifier","S",NA,20
+"CPT4","Measurement","CPT4","S",NA,1418
+"CPT4","Measurement","CPT4",NA,NA,1
+"CPT4","Measurement","CPT4 Hierarchy","C",NA,261
+"CPT4","Measurement","CPT4 Hierarchy","S",NA,23
+"CPT4","Observation","CPT4","S",NA,811
+"CPT4","Observation","CPT4 Hierarchy","C",NA,107
+"CPT4","Observation","CPT4 Modifier","S",NA,272
+"CPT4","Place of Service","Place of Service",NA,NA,48
+"CPT4","Procedure","CPT4","S",NA,9953
+"CPT4","Procedure","CPT4 Hierarchy","C",NA,3064
+"CPT4","Procedure","CPT4 Hierarchy","S",NA,75
+"CPT4","Procedure","CPT4 Modifier","S",NA,56
+"CPT4","Spec Anatomic Site","CPT4 Hierarchy","C",NA,1
+"CPT4","Spec Anatomic Site","CPT4 Modifier","S",NA,29
+"Cancer Modifier","Measurement","Dimension","S",NA,40
+"Cancer Modifier","Measurement","Extension/Invasion","S",NA,544
+"Cancer Modifier","Measurement","Histopattern","S",NA,441
+"Cancer Modifier","Measurement","Margin","S",NA,432
+"Cancer Modifier","Measurement","Metastasis","S",NA,572
+"Cancer Modifier","Measurement","Metastasis",NA,"D",1
+"Cancer Modifier","Measurement","Nodes","S",NA,192
+"Cancer Modifier","Measurement","Staging/Grading","S",NA,573
+"Cancer Modifier","Measurement","Staging/Grading",NA,"D",32
+"Cancer Modifier","Measurement","Topography","S",NA,510
 "Concept Class","Metadata","Concept Class",NA,"D",9
-"Concept Class","Metadata","Concept Class",NA,NA,323
-"Condition Type","Type Concept","Condition Type","S",NA,103
+"Concept Class","Metadata","Concept Class",NA,NA,405
+"Condition Status","Condition Status","Condition Status","S",NA,22
+"Condition Type","Type Concept","Condition Type",NA,NA,104
+"Condition Type","Type Concept","Death Type",NA,NA,14
 "Cost","Cost","Detail","S",NA,24
 "Cost","Cost","Summary","S",NA,27
 "Cost Type","Type Concept","Cost Type",NA,"D",3
-"Cost Type","Type Concept","Type Concept","S",NA,3
+"Cost Type","Type Concept","Cost Type",NA,NA,5
 "Currency","Currency","Currency","S",NA,180
-"Death Type","Type Concept","Death Type","S",NA,14
-"Device Type","Type Concept","Device Type","S",NA,4
+"Death Type","Type Concept","Death Type",NA,NA,14
+"Device Type","Type Concept","Device Type",NA,NA,4
+"Domain","Metadata","Domain",NA,"D",1
 "Domain","Metadata","Domain",NA,"U",11
-"Domain","Metadata","Domain",NA,NA,49
-"DRG","Observation","DRG",NA,"D",604
-"DRG","Observation","MS-DRG","S",NA,752
-"DRG","Observation","MS-DRG",NA,"D",6
-"Drug Type","Type Concept","Drug Type","S",NA,16
+"Domain","Metadata","Domain",NA,NA,52
+"Drug Type","Type Concept","Drug Type",NA,NA,16
+"Episode","Episode","Disease Dynamic","S",NA,5
+"Episode","Episode","Disease Extent","S",NA,3
+"Episode","Episode","Disease Extent",NA,"D",4
+"Episode","Episode","Episode of Care","S",NA,1
+"Episode","Episode","Treatment","S",NA,5
 "Ethnicity","Ethnicity","Ethnicity","S",NA,2
 "Gender","Gender","Gender","S",NA,2
 "Gender","Gender","Gender",NA,"D",3
-"HCPCS","Condition","HCPCS Modifier",NA,NA,1
-"HCPCS","Device","HCPCS","S",NA,3045
+"HCPCS","Condition","HCPCS Modifier","S",NA,1
+"HCPCS","Device","HCPCS","S",NA,4592
 "HCPCS","Device","HCPCS",NA,"D",341
-"HCPCS","Device","HCPCS",NA,"U",20
-"HCPCS","Device","HCPCS",NA,NA,18
-"HCPCS","Device","HCPCS Class",NA,"D",7
+"HCPCS","Device","HCPCS",NA,"U",21
+"HCPCS","Device","HCPCS",NA,NA,9
+"HCPCS","Device","HCPCS Class",NA,"D",11
 "HCPCS","Device","HCPCS Modifier","S",NA,42
-"HCPCS","Drug","HCPCS","S",NA,36
-"HCPCS","Drug","HCPCS",NA,"D",3
-"HCPCS","Drug","HCPCS",NA,"U",97
-"HCPCS","Drug","HCPCS",NA,NA,1034
-"HCPCS","Measurement","HCPCS","S",NA,83
+"HCPCS","Drug","HCPCS","S",NA,106
+"HCPCS","Drug","HCPCS",NA,"D",4
+"HCPCS","Drug","HCPCS",NA,"U",130
+"HCPCS","Drug","HCPCS",NA,NA,1377
+"HCPCS","Drug","HCPCS Class",NA,"D",4
+"HCPCS","Measurement","HCPCS","S",NA,99
 "HCPCS","Measurement","HCPCS",NA,"D",1
-"HCPCS","Measurement","HCPCS",NA,NA,35
+"HCPCS","Measurement","HCPCS",NA,NA,32
+"HCPCS","Measurement","HCPCS Class",NA,"D",7
 "HCPCS","Measurement","HCPCS Modifier","S",NA,8
-"HCPCS","Observation","HCPCS","S",NA,1282
-"HCPCS","Observation","HCPCS",NA,"D",1
-"HCPCS","Observation","HCPCS",NA,"U",2
-"HCPCS","Observation","HCPCS",NA,NA,87
-"HCPCS","Observation","HCPCS Class",NA,"D",39
-"HCPCS","Observation","HCPCS Modifier","S",NA,300
-"HCPCS","Observation","HCPCS Modifier",NA,NA,5
-"HCPCS","Procedure","HCPCS","S",NA,1310
+"HCPCS","Observation","HCPCS","S",NA,2349
+"HCPCS","Observation","HCPCS",NA,NA,26
+"HCPCS","Observation","HCPCS Class",NA,"D",22
+"HCPCS","Observation","HCPCS Modifier","S",NA,318
+"HCPCS","Procedure","HCPCS","S",NA,917
 "HCPCS","Procedure","HCPCS",NA,"D",236
-"HCPCS","Procedure","HCPCS",NA,"U",2
-"HCPCS","Procedure","HCPCS",NA,NA,196
-"HCPCS","Procedure","HCPCS Class",NA,"D",60
+"HCPCS","Procedure","HCPCS",NA,"U",4
+"HCPCS","Procedure","HCPCS",NA,NA,68
+"HCPCS","Procedure","HCPCS Class",NA,"D",62
 "HCPCS","Procedure","HCPCS Modifier","S",NA,2
-"ICD10","Condition","ICD10 code",NA,"D",772
-"ICD10","Condition","ICD10 code",NA,"U",225
-"ICD10","Condition","ICD10 code",NA,NA,11629
-"ICD10","Condition","ICD10 Hierarchy",NA,"D",1
-"ICD10","Condition","ICD10 Hierarchy",NA,NA,1655
-"ICD10","Measurement","ICD10 code",NA,"U",1
-"ICD10","Measurement","ICD10 code",NA,NA,111
-"ICD10","Measurement","ICD10 Hierarchy",NA,NA,21
-"ICD10","Observation","ICD10 code",NA,"D",13
-"ICD10","Observation","ICD10 code",NA,"U",4
-"ICD10","Observation","ICD10 code",NA,NA,1311
-"ICD10","Observation","ICD10 Hierarchy",NA,NA,354
-"ICD10","Procedure","ICD10 code",NA,"U",8
-"ICD10","Procedure","ICD10 code",NA,NA,197
-"ICD10","Procedure","ICD10 Hierarchy",NA,NA,19
+"HES Specialty","Observation","Observation",NA,"D",1
+"HES Specialty","Observation","Observation",NA,NA,4
+"HES Specialty","Provider","Physician Specialty","S",NA,61
+"HES Specialty","Provider","Physician Specialty",NA,"D",4
+"HES Specialty","Provider","Physician Specialty",NA,NA,84
+"HES Specialty","Provider","Provider",NA,NA,4
+"HES Specialty","Visit","Visit","S",NA,3
+"HES Specialty","Visit","Visit",NA,"D",3
+"HES Specialty","Visit","Visit",NA,NA,1
+"HGNC","Measurement","Gene","S",NA,19297
+"HemOnc","Condition","Condition",NA,NA,209
+"HemOnc","Drug","Brand Name",NA,"D",1
+"HemOnc","Drug","Brand Name",NA,NA,4065
+"HemOnc","Drug","Component",NA,"D",2
+"HemOnc","Drug","Component",NA,"U",1
+"HemOnc","Drug","Component",NA,NA,586
+"HemOnc","Drug","Component Class","C",NA,337
+"HemOnc","Drug","Component Class",NA,"D",7
+"HemOnc","Drug","Regimen Class","C",NA,6
+"HemOnc","Drug","Route",NA,NA,13
+"HemOnc","Procedure","Context","S",NA,33
+"HemOnc","Procedure","Procedure",NA,"D",5
+"HemOnc","Procedure","Procedure",NA,"U",3
+"HemOnc","Procedure","Procedure",NA,NA,46
+"HemOnc","Regimen","Modality","S",NA,18
+"HemOnc","Regimen","Regimen","S",NA,1679
+"HemOnc","Regimen","Regimen",NA,"D",8
+"HemOnc","Regimen","Regimen",NA,"U",16
+"ICD10","Condition","ICD10 Hierarchy",NA,"D",2
+"ICD10","Condition","ICD10 Hierarchy",NA,NA,1723
+"ICD10","Condition","ICD10 code",NA,"D",765
+"ICD10","Condition","ICD10 code",NA,NA,12249
+"ICD10","Measurement","ICD10 Hierarchy",NA,NA,8
+"ICD10","Measurement","ICD10 code",NA,NA,30
+"ICD10","Observation","ICD10 Hierarchy",NA,"D",1
+"ICD10","Observation","ICD10 Hierarchy",NA,NA,293
+"ICD10","Observation","ICD10 code",NA,"D",23
+"ICD10","Observation","ICD10 code",NA,NA,849
+"ICD10","Procedure","ICD10 Hierarchy",NA,NA,26
+"ICD10","Procedure","ICD10 code",NA,NA,174
 "ICD10CM","Condition","3-char billing code",NA,"D",31
-"ICD10CM","Condition","3-char billing code",NA,NA,214
-"ICD10CM","Condition","3-char nonbill code",NA,NA,1384
+"ICD10CM","Condition","3-char billing code",NA,NA,215
+"ICD10CM","Condition","3-char nonbill code",NA,NA,1460
 "ICD10CM","Condition","4-char billing code",NA,"D",39
-"ICD10CM","Condition","4-char billing code",NA,NA,5051
+"ICD10CM","Condition","4-char billing code",NA,NA,5005
 "ICD10CM","Condition","4-char nonbill code",NA,"D",1
-"ICD10CM","Condition","4-char nonbill code",NA,NA,3243
-"ICD10CM","Condition","5-char billing code",NA,"D",188
-"ICD10CM","Condition","5-char billing code",NA,NA,5946
+"ICD10CM","Condition","4-char nonbill code",NA,NA,3957
+"ICD10CM","Condition","5-char billing code",NA,"D",189
+"ICD10CM","Condition","5-char billing code",NA,NA,5989
 "ICD10CM","Condition","5-char nonbill code",NA,"D",3
-"ICD10CM","Condition","5-char nonbill code",NA,NA,6090
-"ICD10CM","Condition","6-char billing code",NA,"D",255
-"ICD10CM","Condition","6-char billing code",NA,NA,9207
+"ICD10CM","Condition","5-char nonbill code",NA,NA,6396
+"ICD10CM","Condition","6-char billing code",NA,"D",69
+"ICD10CM","Condition","6-char billing code",NA,NA,9305
 "ICD10CM","Condition","6-char nonbill code",NA,"D",23
-"ICD10CM","Condition","6-char nonbill code",NA,NA,8975
-"ICD10CM","Condition","7-char billing code",NA,"D",14308
-"ICD10CM","Condition","7-char billing code",NA,NA,46031
+"ICD10CM","Condition","6-char nonbill code",NA,NA,9042
+"ICD10CM","Condition","7-char billing code",NA,"D",842
+"ICD10CM","Condition","7-char billing code",NA,NA,47896
 "ICD10CM","Condition/Device","4-char billing code",NA,"D",1
 "ICD10CM","Condition/Meas","3-char billing code",NA,"D",1
-"ICD10CM","Condition/Meas","7-char billing code",NA,"D",77
-"ICD10CM","Device","4-char billing code",NA,NA,4
+"ICD10CM","Condition/Meas","7-char billing code",NA,"D",7
 "ICD10CM","Measurement","3-char billing code",NA,"D",1
-"ICD10CM","Measurement","3-char nonbill code",NA,NA,12
-"ICD10CM","Measurement","4-char billing code",NA,NA,20
+"ICD10CM","Measurement","3-char nonbill code",NA,NA,11
+"ICD10CM","Measurement","4-char billing code",NA,NA,28
 "ICD10CM","Measurement","4-char nonbill code",NA,NA,8
-"ICD10CM","Measurement","5-char billing code",NA,NA,14
+"ICD10CM","Measurement","5-char billing code",NA,NA,13
 "ICD10CM","Observation","3-char billing code",NA,NA,8
-"ICD10CM","Observation","3-char nonbill code",NA,NA,271
+"ICD10CM","Observation","3-char nonbill code",NA,NA,216
 "ICD10CM","Observation","4-char billing code",NA,"D",18
-"ICD10CM","Observation","4-char billing code",NA,NA,288
+"ICD10CM","Observation","4-char billing code",NA,NA,411
 "ICD10CM","Observation","4-char nonbill code",NA,"D",2
-"ICD10CM","Observation","4-char nonbill code",NA,NA,1202
+"ICD10CM","Observation","4-char nonbill code",NA,NA,542
 "ICD10CM","Observation","5-char billing code",NA,"D",11
-"ICD10CM","Observation","5-char billing code",NA,NA,441
+"ICD10CM","Observation","5-char billing code",NA,NA,536
 "ICD10CM","Observation","5-char nonbill code",NA,"D",12
-"ICD10CM","Observation","5-char nonbill code",NA,NA,881
+"ICD10CM","Observation","5-char nonbill code",NA,NA,614
 "ICD10CM","Observation","6-char billing code",NA,"D",20
-"ICD10CM","Observation","6-char billing code",NA,NA,477
+"ICD10CM","Observation","6-char billing code",NA,NA,502
 "ICD10CM","Observation","6-char nonbill code",NA,"D",2
-"ICD10CM","Observation","6-char nonbill code",NA,NA,362
+"ICD10CM","Observation","6-char nonbill code",NA,NA,334
 "ICD10CM","Observation","7-char billing code",NA,"D",264
-"ICD10CM","Observation","7-char billing code",NA,NA,3981
+"ICD10CM","Observation","7-char billing code",NA,NA,2275
 "ICD10CM","Procedure","3-char billing code",NA,"D",3
-"ICD10CM","Procedure","3-char billing code",NA,NA,1
-"ICD10CM","Procedure","3-char nonbill code",NA,NA,20
-"ICD10CM","Procedure","4-char billing code",NA,NA,89
-"ICD10CM","Procedure","4-char nonbill code",NA,NA,43
+"ICD10CM","Procedure","4-char billing code",NA,NA,2
 "ICD10CM","Procedure","5-char billing code",NA,"D",2
-"ICD10CM","Procedure","5-char billing code",NA,NA,97
-"ICD10CM","Procedure","5-char nonbill code",NA,NA,21
-"ICD10CM","Procedure","6-char billing code",NA,NA,63
-"ICD10PCS","Procedure","ICD10PCS","S",NA,79578
-"ICD10PCS","Procedure","ICD10PCS Hierarchy","S",NA,107861
-"ICD10PCS","Procedure","ICD10PCS Hierarchy",NA,"D",13
-"ICD9CM","Condition","3-dig billing code",NA,NA,92
-"ICD9CM","Condition","3-dig billing E code",NA,NA,20
+"ICD10CM","Procedure","5-char nonbill code",NA,NA,1
+"ICD10CM","Procedure","6-char billing code",NA,NA,1
+"ICD9CM","Condition","3-dig billing E code",NA,NA,21
 "ICD9CM","Condition","3-dig billing V code",NA,NA,1
-"ICD9CM","Condition","3-dig nonbill code",NA,NA,827
-"ICD9CM","Condition","3-dig nonbill E code",NA,NA,51
+"ICD9CM","Condition","3-dig billing code",NA,NA,92
+"ICD9CM","Condition","3-dig nonbill E code",NA,NA,47
 "ICD9CM","Condition","3-dig nonbill V code",NA,NA,30
-"ICD9CM","Condition","4-dig billing code",NA,NA,3806
-"ICD9CM","Condition","4-dig billing E code",NA,NA,665
+"ICD9CM","Condition","3-dig nonbill code",NA,NA,833
+"ICD9CM","Condition","4-dig billing E code",NA,NA,670
 "ICD9CM","Condition","4-dig billing V code",NA,NA,137
-"ICD9CM","Condition","4-dig nonbill code",NA,NA,1708
+"ICD9CM","Condition","4-dig billing code",NA,NA,3841
 "ICD9CM","Condition","4-dig nonbill V code",NA,NA,40
-"ICD9CM","Condition","5-dig billing code",NA,NA,8141
-"ICD9CM","Condition","5-dig billing V code",NA,NA,138
+"ICD9CM","Condition","4-dig nonbill code",NA,NA,1718
+"ICD9CM","Condition","5-dig billing V code",NA,NA,153
+"ICD9CM","Condition","5-dig billing code",NA,NA,8179
 "ICD9CM","Condition","ICD9CM code",NA,"D",3
-"ICD9CM","Condition","ICD9CM V code",NA,"U",137
-"ICD9CM","Condition/Meas","ICD9CM V code",NA,"U",33
-"ICD9CM","Condition/Procedure","ICD9CM V code",NA,"U",19
-"ICD9CM","Meas/Procedure","ICD9CM V code",NA,"U",22
-"ICD9CM","Measurement","3-dig nonbill code",NA,NA,2
-"ICD9CM","Measurement","3-dig nonbill V code",NA,NA,2
-"ICD9CM","Measurement","4-dig billing code",NA,NA,19
+"ICD9CM","Measurement","3-dig nonbill V code",NA,NA,1
 "ICD9CM","Measurement","4-dig billing V code",NA,NA,6
-"ICD9CM","Measurement","4-dig nonbill code",NA,NA,9
+"ICD9CM","Measurement","4-dig billing code",NA,NA,7
 "ICD9CM","Measurement","4-dig nonbill V code",NA,NA,2
-"ICD9CM","Measurement","5-dig billing code",NA,NA,26
+"ICD9CM","Measurement","4-dig nonbill code",NA,NA,6
 "ICD9CM","Measurement","5-dig billing V code",NA,NA,9
-"ICD9CM","Measurement","ICD9CM V code",NA,"U",13
-"ICD9CM","Observation","3-dig billing E code",NA,NA,24
-"ICD9CM","Observation","3-dig nonbill code",NA,NA,3
-"ICD9CM","Observation","3-dig nonbill E code",NA,NA,120
+"ICD9CM","Measurement","5-dig billing code",NA,NA,10
+"ICD9CM","Observation","3-dig billing E code",NA,NA,23
+"ICD9CM","Observation","3-dig nonbill E code",NA,NA,124
 "ICD9CM","Observation","3-dig nonbill V code",NA,NA,35
-"ICD9CM","Observation","4-dig billing code",NA,NA,13
-"ICD9CM","Observation","4-dig billing E code",NA,NA,581
-"ICD9CM","Observation","4-dig billing V code",NA,NA,202
-"ICD9CM","Observation","4-dig nonbill code",NA,NA,7
-"ICD9CM","Observation","4-dig nonbill V code",NA,NA,88
-"ICD9CM","Observation","5-dig billing code",NA,NA,18
-"ICD9CM","Observation","5-dig billing V code",NA,NA,389
+"ICD9CM","Observation","3-dig nonbill code",NA,NA,3
+"ICD9CM","Observation","4-dig billing E code",NA,NA,577
+"ICD9CM","Observation","4-dig billing V code",NA,NA,198
+"ICD9CM","Observation","4-dig billing code",NA,NA,15
+"ICD9CM","Observation","4-dig nonbill V code",NA,NA,87
+"ICD9CM","Observation","4-dig nonbill code",NA,NA,6
+"ICD9CM","Observation","5-dig billing V code",NA,NA,375
+"ICD9CM","Observation","5-dig billing code",NA,NA,22
 "ICD9CM","Observation","ICD9CM code",NA,"D",9
-"ICD9CM","Observation","ICD9CM V code",NA,"U",570
-"ICD9CM","Procedure","3-dig nonbill code",NA,NA,4
-"ICD9CM","Procedure","3-dig nonbill V code",NA,NA,22
-"ICD9CM","Procedure","4-dig billing code",NA,NA,25
-"ICD9CM","Procedure","4-dig billing E code",NA,NA,1
-"ICD9CM","Procedure","4-dig billing V code",NA,NA,129
-"ICD9CM","Procedure","4-dig nonbill code",NA,NA,6
-"ICD9CM","Procedure","4-dig nonbill V code",NA,NA,29
-"ICD9CM","Procedure","5-dig billing code",NA,NA,27
-"ICD9CM","Procedure","5-dig billing V code",NA,NA,98
-"ICD9CM","Procedure","ICD9CM V code",NA,"U",314
-"ICD9Proc","Procedure","2-dig nonbill code","S",NA,56
-"ICD9Proc","Procedure","2-dig nonbill code",NA,NA,44
-"ICD9Proc","Procedure","3-dig billing code","S",NA,60
-"ICD9Proc","Procedure","3-dig billing code",NA,NA,161
-"ICD9Proc","Procedure","3-dig nonbill code","S",NA,382
-"ICD9Proc","Procedure","3-dig nonbill code",NA,NA,287
-"ICD9Proc","Procedure","4-dig billing code","S",NA,1794
-"ICD9Proc","Procedure","4-dig billing code",NA,NA,1867
+"ICD9CM","Procedure","3-dig nonbill V code",NA,NA,23
+"ICD9CM","Procedure","4-dig billing V code",NA,NA,133
+"ICD9CM","Procedure","4-dig nonbill V code",NA,NA,30
+"ICD9CM","Procedure","5-dig billing V code",NA,NA,97
+"ICD9CM","Procedure","5-dig billing code",NA,NA,1
+"ICD9Proc","Procedure","2-dig nonbill code","S",NA,55
+"ICD9Proc","Procedure","2-dig nonbill code",NA,NA,45
+"ICD9Proc","Procedure","3-dig billing code","S",NA,63
+"ICD9Proc","Procedure","3-dig billing code",NA,NA,158
+"ICD9Proc","Procedure","3-dig nonbill code","S",NA,378
+"ICD9Proc","Procedure","3-dig nonbill code",NA,NA,291
+"ICD9Proc","Procedure","4-dig billing code","S",NA,1736
+"ICD9Proc","Procedure","4-dig billing code",NA,NA,1925
 "ICD9Proc","Procedure","Procedure","S",NA,5
 "ICD9Proc","Procedure","Procedure",NA,NA,1
-"LOINC","Measurement","Clinical Observation","S",NA,21998
-"LOINC","Measurement","Clinical Observation",NA,"D",501
-"LOINC","Measurement","Clinical Observation",NA,"U",496
-"LOINC","Measurement","Lab Test","S",NA,51926
-"LOINC","Measurement","Lab Test",NA,"D",689
-"LOINC","Measurement","Lab Test",NA,"U",2143
-"LOINC","Measurement","LOINC Class","C",NA,203
-"LOINC","Measurement","LOINC Document Type","C",NA,112
-"LOINC","Measurement","LOINC Hierarchy","C",NA,37329
-"LOINC","Measurement","LOINC Hierarchy",NA,"D",435
-"LOINC","Meas Value","Answer","S",NA,15964
-"LOINC","Meas Value","Doc Kind","S",NA,66
-"LOINC","Meas Value","Doc Role","S",NA,23
+"ICDO3","Condition","ICDO Condition","S",NA,59221
+"ICDO3","Condition","ICDO Condition",NA,"D",722
+"ICDO3","Condition","ICDO Condition",NA,NA,1847
+"ICDO3","Observation","ICDO Histology","S",NA,309
+"ICDO3","Observation","ICDO Histology",NA,"D",1
+"ICDO3","Observation","ICDO Histology",NA,NA,1167
+"ICDO3","Observation","ICDO Topography","S",NA,89
+"ICDO3","Observation","ICDO Topography",NA,NA,311
+"JAX","Measurement","Variant",NA,NA,5877
+"Korean Revenue Code","Revenue Code","Revenue Code","S",NA,7
+"LOINC","Meas Value","Answer","S",NA,17106
+"LOINC","Meas Value","Answer",NA,"D",202
+"LOINC","Meas Value","Doc Kind","S",NA,72
+"LOINC","Meas Value","Doc Role","S",NA,25
+"LOINC","Meas Value","Doc Role",NA,"D",5
 "LOINC","Meas Value","Doc Setting","S",NA,18
-"LOINC","Meas Value","Doc Subject Matter","S",NA,137
-"LOINC","Meas Value","Doc Type of Service","S",NA,135
-"LOINC","Observation","Claims Attachment","S",NA,1234
-"LOINC","Observation","Claims Attachment",NA,"D",20
-"LOINC","Observation","Claims Attachment",NA,"U",32
-"LOINC","Observation","LOINC Class","C",NA,97
-"LOINC","Observation","LOINC Document Type","C",NA,10
-"LOINC","Observation","LOINC Hierarchy","C",NA,1993
-"LOINC","Observation","Survey","S",NA,8451
-"LOINC","Observation","Survey",NA,"D",330
-"LOINC","Observation","Survey",NA,"U",43
-"Meas Type","Type Concept","Meas Type","S",NA,8
-"NDC","Device","Device","S",NA,8240
-"NDC","Device","Device",NA,"D",213
-"NDC","Drug","11-digit NDC",NA,"D",298264
-"NDC","Drug","11-digit NDC",NA,NA,344564
-"NDC","Drug","9-digit NDC",NA,NA,190164
-"NDFRT","Drug","Chemical Structure","C",NA,10474
-"NDFRT","Drug","Chemical Structure",NA,"D",86
-"NDFRT","Drug","Dose Form",NA,"D",25
-"NDFRT","Drug","Dose Form",NA,NA,192
-"NDFRT","Drug","Drug Interaction",NA,"D",10843
-"NDFRT","Drug","Ind / CI","C",NA,4873
-"NDFRT","Drug","Ind / CI",NA,"D",65
-"NDFRT","Drug","Mechanism of Action","C",NA,628
-"NDFRT","Drug","Mechanism of Action",NA,"D",10
-"NDFRT","Drug","Pharmacologic Class","C",NA,625
-"NDFRT","Drug","Pharmacologic Class",NA,"D",1
-"NDFRT","Drug","Pharma Preparation",NA,"D",29
-"NDFRT","Drug","Pharma Preparation",NA,NA,7679
-"NDFRT","Drug","Physiologic Effect","C",NA,1866
-"NDFRT","Drug","PK","C",NA,59
-"NDFRT","Drug","Therapeutic Class","C",NA,30
-"NDFRT","Metadata","Pharma Preparation",NA,NA,1
+"LOINC","Meas Value","Doc Subject Matter","S",NA,153
+"LOINC","Meas Value","Doc Subject Matter",NA,"D",3
+"LOINC","Meas Value","Doc Type of Service","S",NA,141
+"LOINC","Meas Value","Doc Type of Service",NA,"D",4
+"LOINC","Measurement","Clinical Observation","S",NA,17224
+"LOINC","Measurement","Clinical Observation",NA,"D",462
+"LOINC","Measurement","Clinical Observation",NA,"U",471
+"LOINC","Measurement","LOINC Class","C",NA,180
+"LOINC","Measurement","LOINC Document Type",NA,"D",1
+"LOINC","Measurement","LOINC Group","C",NA,6638
+"LOINC","Measurement","LOINC Hierarchy","C",NA,38057
+"LOINC","Measurement","LOINC Hierarchy",NA,"D",30159
+"LOINC","Measurement","Lab Test","S",NA,53726
+"LOINC","Measurement","Lab Test",NA,"D",892
+"LOINC","Measurement","Lab Test",NA,"U",2220
+"LOINC","Observation","Claims Attachment","S",NA,499
+"LOINC","Observation","Claims Attachment",NA,"D",605
+"LOINC","Observation","Claims Attachment",NA,"U",53
+"LOINC","Observation","Clinical Observation","S",NA,6479
+"LOINC","Observation","Clinical Observation",NA,"D",45
+"LOINC","Observation","Clinical Observation",NA,"U",44
+"LOINC","Observation","LOINC Class","C",NA,121
+"LOINC","Observation","LOINC Component",NA,"D",980
+"LOINC","Observation","LOINC Component",NA,NA,54826
+"LOINC","Observation","LOINC Hierarchy","C",NA,1358
+"LOINC","Observation","LOINC Hierarchy",NA,"D",1500
+"LOINC","Observation","LOINC Method",NA,"D",43
+"LOINC","Observation","LOINC Method",NA,NA,1914
+"LOINC","Observation","LOINC Property",NA,"D",3
+"LOINC","Observation","LOINC Property",NA,NA,208
+"LOINC","Observation","LOINC Scale",NA,NA,10
+"LOINC","Observation","LOINC System",NA,"D",42
+"LOINC","Observation","LOINC System",NA,NA,2806
+"LOINC","Observation","LOINC Time",NA,NA,96
+"LOINC","Observation","Survey","S",NA,10496
+"LOINC","Observation","Survey",NA,"D",345
+"LOINC","Observation","Survey",NA,"U",55
+"Meas Type","Type Concept","Meas Type",NA,NA,12
+"Medicare Specialty","Provider","Physician Specialty","S",NA,66
+"Medicare Specialty","Provider","Physician Specialty",NA,"D",2
+"Medicare Specialty","Provider","Physician Specialty",NA,NA,2
+"Medicare Specialty","Provider","Provider","S",NA,17
+"Medicare Specialty","Provider","Provider",NA,"D",2
+"Medicare Specialty","Provider","Provider",NA,NA,1
+"Medicare Specialty","Visit","Visit","S",NA,24
+"Medicare Specialty","Visit","Visit",NA,NA,6
+"Metadata","Metadata","Metadata","S",NA,1
+"Metadata","Metadata","Metadata",NA,NA,1
+"NAACCR","Drug","NAACCR Value",NA,"D",8
+"NAACCR","Drug","NAACCR Value",NA,NA,5
+"NAACCR","Episode","NAACCR Variable",NA,NA,8
+"NAACCR","Meas Value","NAACCR Value","S",NA,24052
+"NAACCR","Meas Value","NAACCR Value",NA,"D",340
+"NAACCR","Meas Value","NAACCR Value",NA,NA,6648
+"NAACCR","Meas Value","Permissible Range",NA,"D",3
+"NAACCR","Meas Value","Permissible Range",NA,NA,478
+"NAACCR","Measurement","NAACCR Variable","S",NA,1414
+"NAACCR","Measurement","NAACCR Variable",NA,NA,36
+"NAACCR","Metadata","NAACCR Variable",NA,NA,13
+"NAACCR","Observation","NAACCR Proc Schema",NA,NA,30
+"NAACCR","Observation","NAACCR Procedure","S",NA,57
+"NAACCR","Observation","NAACCR Procedure",NA,"D",28
+"NAACCR","Observation","NAACCR Schema",NA,NA,195
+"NAACCR","Observation","NAACCR Value","S",NA,36
+"NAACCR","Observation","NAACCR Value",NA,"D",2
+"NAACCR","Observation","NAACCR Variable","S",NA,3
+"NAACCR","Observation","NAACCR Variable",NA,NA,407
+"NAACCR","Procedure","NAACCR Procedure","S",NA,622
+"NAACCR","Procedure","NAACCR Value","S",NA,56
+"NAACCR","Procedure","NAACCR Value",NA,"D",32
+"NCIt","Measurement","AJCC Category","S",NA,1816
+"NCIt","Measurement","AJCC Chapter","S",NA,83
+"NCIt","Measurement","Variant",NA,NA,527
+"NDC","Device","Device","S",NA,10617
+"NDC","Device","Device",NA,"D",397
+"NDC","Drug","11-digit NDC",NA,"D",395742
+"NDC","Drug","11-digit NDC",NA,NA,369285
+"NDC","Drug","9-digit NDC",NA,NA,246711
+"NUCC","Observation","Observation","S",NA,4
+"NUCC","Provider","Physician Specialty","S",NA,124
+"NUCC","Provider","Physician Specialty",NA,NA,111
+"NUCC","Provider","Provider","S",NA,410
+"NUCC","Provider","Provider",NA,"D",7
+"NUCC","Provider","Provider",NA,NA,17
+"NUCC","Visit","Visit","S",NA,159
+"NUCC","Visit","Visit",NA,"D",3
+"NUCC","Visit","Visit",NA,NA,20
 "None","Metadata","Undefined",NA,NA,1
-"Note Type","Type Concept","Note Type","S",NA,10
-"NUCC","Provider Specialty","NUCC","S",NA,845
-"NUCC","Provider Specialty","NUCC",NA,"D",5
-"NUCC","Provider Specialty","NUCC",NA,"U",5
-"Observation Type","Type Concept","Observation Type","S",NA,15
-"Obs Period Type","Type Concept","Obs Period Type","S",NA,6
+"Note Type","Type Concept","Note Type",NA,NA,10
+"OMOP Extension","Condition","Clinical Finding","S",NA,6
+"OMOP Extension","Measurement","Genomic Variant","S",NA,26608
+"OMOP Extension","Measurement","Procedure","S",NA,74
+"OMOP Extension","Measurement","Protein Variant","S",NA,16625
+"OMOP Extension","Measurement","Staging / Scales","S",NA,193
+"OMOP Extension","Measurement","Transcript Variant","S",NA,23929
+"OMOP Extension","Observation","Clinical Finding","S",NA,8
+"OMOP Extension","Observation","Clinical Finding",NA,"D",1
+"OMOP Extension","Observation","Context-dependent","S",NA,78
+"OMOP Extension","Observation","Event","S",NA,20
+"OPCS4","Condition","Clinical Finding","S",NA,1
+"OPCS4","Condition","Clinical Finding",NA,NA,5
+"OPCS4","Device","Physical Object","S",NA,1
+"OPCS4","Device","Physical Object",NA,NA,9
+"OPCS4","Device","Substance",NA,NA,1
+"OPCS4","Measurement","Procedure","S",NA,6
+"OPCS4","Measurement","Procedure",NA,NA,58
+"OPCS4","Observation","Attribute","S",NA,1
+"OPCS4","Observation","Attribute",NA,NA,4
+"OPCS4","Observation","Clinical Finding",NA,NA,1
+"OPCS4","Observation","Context-dependent",NA,NA,2
+"OPCS4","Observation","Morph Abnormality","S",NA,1
+"OPCS4","Observation","Observable Entity",NA,NA,1
+"OPCS4","Observation","Procedure","S",NA,31
+"OPCS4","Observation","Procedure",NA,NA,134
+"OPCS4","Observation","Qualifier Value","S",NA,23
+"OPCS4","Observation","Qualifier Value",NA,NA,83
+"OPCS4","Observation","Social Context",NA,NA,3
+"OPCS4","Observation","Substance",NA,NA,1
+"OPCS4","Procedure","Procedure","S",NA,2138
+"OPCS4","Procedure","Procedure",NA,"D",6
+"OPCS4","Procedure","Procedure",NA,NA,7607
+"OPCS4","Spec Anatomic Site","Body Structure","S",NA,170
+"OPCS4","Spec Anatomic Site","Body Structure",NA,NA,712
+"OPCS4","Specimen","Specimen",NA,NA,1
+"OSM","Geography","10th level","S",NA,62708
+"OSM","Geography","11th level","S",NA,1632
+"OSM","Geography","12th level","S",NA,165
+"OSM","Geography","2nd level","S",NA,19
+"OSM","Geography","3rd level","S",NA,28
+"OSM","Geography","4th level","S",NA,354
+"OSM","Geography","5th level","S",NA,567
+"OSM","Geography","6th level","S",NA,8572
+"OSM","Geography","7th level","S",NA,6574
+"OSM","Geography","8th level","S",NA,102089
+"OSM","Geography","9th level","S",NA,20631
+"Obs Period Type","Type Concept","Obs Period Type",NA,NA,6
+"Observation Type","Type Concept","Death Type",NA,NA,14
+"Observation Type","Type Concept","Observation Type",NA,NA,15
 "PHDSC","Payer","Payer","S",NA,158
 "PHDSC","Payer","Payer",NA,NA,4
-"Place of Service","Visit","Place of Service","S",NA,60
 "Plan","Plan","Benefit","S",NA,6
 "Plan","Plan","Metal level","S",NA,5
 "Plan Stop Reason","Plan Stop Reason","Plan Stop Reason","S",NA,13
-"Procedure Type","Type Concept","Procedure Type","S",NA,97
+"Procedure Type","Type Concept","Procedure Type",NA,NA,97
 "Race","Race","Race","S",NA,50
 "Race","Race","Race",NA,"D",3
-"Relationship","Metadata","Relationship","S",NA,12
+"Read","Condition","Read",NA,"D",1304
+"Read","Condition","Read",NA,NA,46230
+"Read","Condition/Meas","Read",NA,NA,1
+"Read","Condition/Obs","Read",NA,"D",17
+"Read","Condition/Procedure","Read",NA,"D",2
+"Read","Condition/Procedure","Read",NA,NA,1
+"Read","Device","Read",NA,"D",5
+"Read","Device","Read",NA,NA,271
+"Read","Device/Procedure","Read",NA,"D",9
+"Read","Drug","Read",NA,"D",43
+"Read","Drug","Read",NA,NA,259
+"Read","Drug/Procedure","Read",NA,"D",3
+"Read","Gender","Read",NA,NA,3
+"Read","Meas Value","Read",NA,NA,10
+"Read","Measurement","Read",NA,"D",6
+"Read","Measurement","Read",NA,NA,1166
+"Read","Metadata","Read",NA,NA,61
+"Read","Obs/Procedure","Read",NA,"D",76
+"Read","Observation","Read",NA,"D",2774
+"Read","Observation","Read",NA,NA,32439
+"Read","Place of Service","Read",NA,NA,46
+"Read","Procedure","Read",NA,"D",2489
+"Read","Procedure","Read",NA,NA,18418
+"Read","Provider","Read",NA,NA,124
+"Read","Race","Read",NA,NA,265
+"Read","Relationship","Read",NA,NA,66
+"Read","Spec Anatomic Site","Read",NA,NA,1888
+"Read","Specimen","Read",NA,NA,51
+"Read","Type Concept","Read",NA,NA,668
+"Read","Unit","Read",NA,NA,1
+"Relationship","Metadata","Relationship","S",NA,14
 "Relationship","Metadata","Relationship",NA,"D",2
 "Relationship","Metadata","Relationship",NA,"U",4
-"Relationship","Metadata","Relationship",NA,NA,480
+"Relationship","Metadata","Relationship",NA,NA,602
 "Revenue Code","Revenue Code","Revenue Code","S",NA,538
-"RxNorm","Drug","Branded Dose Group","C",NA,21071
-"RxNorm","Drug","Branded Dose Group",NA,"D",812
-"RxNorm","Drug","Branded Dose Group",NA,"U",1
-"RxNorm","Drug","Branded Drug","S",NA,20337
-"RxNorm","Drug","Branded Drug",NA,"D",3627
-"RxNorm","Drug","Branded Drug",NA,"U",13081
+"RxNorm","Drug","Brand Name",NA,"D",6739
+"RxNorm","Drug","Brand Name",NA,"U",343
+"RxNorm","Drug","Brand Name",NA,NA,11844
+"RxNorm","Drug","Branded Dose Group","C",NA,20303
+"RxNorm","Drug","Branded Dose Group",NA,"D",2249
+"RxNorm","Drug","Branded Drug","S",NA,20004
+"RxNorm","Drug","Branded Drug",NA,"D",4363
+"RxNorm","Drug","Branded Drug",NA,"U",13598
 "RxNorm","Drug","Branded Drug",NA,NA,6
-"RxNorm","Drug","Branded Drug Comp","S",NA,19065
-"RxNorm","Drug","Branded Drug Comp",NA,"D",7855
-"RxNorm","Drug","Branded Drug Comp",NA,"U",7285
-"RxNorm","Drug","Branded Drug Form","S",NA,14724
-"RxNorm","Drug","Branded Drug Form",NA,"D",6662
-"RxNorm","Drug","Branded Drug Form",NA,"U",3777
-"RxNorm","Drug","Branded Pack","S",NA,621
-"RxNorm","Drug","Branded Pack",NA,"D",350
-"RxNorm","Drug","Branded Pack",NA,"U",5
-"RxNorm","Drug","Brand Name",NA,"D",6047
-"RxNorm","Drug","Brand Name",NA,"U",368
-"RxNorm","Drug","Brand Name",NA,NA,12105
-"RxNorm","Drug","Clinical Dose Group","C",NA,16399
-"RxNorm","Drug","Clinical Dose Group",NA,"D",297
-"RxNorm","Drug","Clinical Dose Group",NA,"U",7
-"RxNorm","Drug","Clinical Drug","S",NA,34424
-"RxNorm","Drug","Clinical Drug",NA,"D",5375
-"RxNorm","Drug","Clinical Drug",NA,"U",9881
+"RxNorm","Drug","Branded Drug Comp","S",NA,18701
+"RxNorm","Drug","Branded Drug Comp",NA,"D",10322
+"RxNorm","Drug","Branded Drug Comp",NA,"U",6590
+"RxNorm","Drug","Branded Drug Form","S",NA,14286
+"RxNorm","Drug","Branded Drug Form",NA,"D",8052
+"RxNorm","Drug","Branded Drug Form",NA,"U",3531
+"RxNorm","Drug","Branded Pack","S",NA,707
+"RxNorm","Drug","Branded Pack",NA,"D",373
+"RxNorm","Drug","Branded Pack",NA,"U",4
+"RxNorm","Drug","Clinical Dose Group","C",NA,15658
+"RxNorm","Drug","Clinical Dose Group",NA,"D",1507
+"RxNorm","Drug","Clinical Dose Group",NA,"U",12
+"RxNorm","Drug","Clinical Drug","S",NA,33690
+"RxNorm","Drug","Clinical Drug",NA,"D",7703
+"RxNorm","Drug","Clinical Drug",NA,"U",10099
 "RxNorm","Drug","Clinical Drug",NA,NA,6
-"RxNorm","Drug","Clinical Drug Comp","S",NA,27169
-"RxNorm","Drug","Clinical Drug Comp",NA,"D",5248
-"RxNorm","Drug","Clinical Drug Comp",NA,"U",3445
-"RxNorm","Drug","Clinical Drug Form","S",NA,14810
-"RxNorm","Drug","Clinical Drug Form",NA,"D",2729
-"RxNorm","Drug","Clinical Drug Form",NA,"U",2099
-"RxNorm","Drug","Clinical Pack","S",NA,560
-"RxNorm","Drug","Clinical Pack",NA,"D",221
+"RxNorm","Drug","Clinical Drug Comp","S",NA,26615
+"RxNorm","Drug","Clinical Drug Comp",NA,"D",7362
+"RxNorm","Drug","Clinical Drug Comp",NA,"U",3321
+"RxNorm","Drug","Clinical Drug Form","S",NA,14321
+"RxNorm","Drug","Clinical Drug Form",NA,"D",3870
+"RxNorm","Drug","Clinical Drug Form",NA,"U",1984
+"RxNorm","Drug","Clinical Pack","S",NA,654
+"RxNorm","Drug","Clinical Pack",NA,"D",248
 "RxNorm","Drug","Clinical Pack",NA,"U",7
-"RxNorm","Drug","Dose Form",NA,"D",13
-"RxNorm","Drug","Dose Form",NA,NA,176
-"RxNorm","Drug","Dose Form Group","C",NA,45
-"RxNorm","Drug","Ingredient","S",NA,11924
-"RxNorm","Drug","Ingredient",NA,"D",544
-"RxNorm","Drug","Ingredient",NA,"U",648
-"RxNorm","Drug","Precise Ingredient",NA,"D",6
+"RxNorm","Drug","Dose Form",NA,"D",15
+"RxNorm","Drug","Dose Form",NA,NA,184
+"RxNorm","Drug","Dose Form Group","C",NA,46
+"RxNorm","Drug","Dose Form Group",NA,"D",1
+"RxNorm","Drug","Ingredient","S",NA,12840
+"RxNorm","Drug","Ingredient",NA,"D",633
+"RxNorm","Drug","Ingredient",NA,"U",641
+"RxNorm","Drug","Precise Ingredient",NA,"D",13
 "RxNorm","Drug","Precise Ingredient",NA,"U",5
-"RxNorm","Drug","Precise Ingredient",NA,NA,2770
-"RxNorm","Drug","Quant Branded Drug","S",NA,2306
-"RxNorm","Drug","Quant Branded Drug",NA,"D",85
-"RxNorm","Drug","Quant Branded Drug",NA,"U",143
-"RxNorm","Drug","Quant Clinical Drug","S",NA,2814
-"RxNorm","Drug","Quant Clinical Drug",NA,"D",202
-"RxNorm","Drug","Quant Clinical Drug",NA,"U",87
-"RxNorm Extension","Drug","Branded Drug","S",NA,142143
-"RxNorm Extension","Drug","Branded Drug",NA,"D",942
-"RxNorm Extension","Drug","Branded Drug",NA,"U",19341
-"RxNorm Extension","Drug","Branded Drug Box","S",NA,199425
-"RxNorm Extension","Drug","Branded Drug Box",NA,"D",2072
+"RxNorm","Drug","Precise Ingredient",NA,NA,3020
+"RxNorm","Drug","Quant Branded Drug","S",NA,2472
+"RxNorm","Drug","Quant Branded Drug",NA,"D",157
+"RxNorm","Drug","Quant Branded Drug",NA,"U",168
+"RxNorm","Drug","Quant Clinical Drug","S",NA,2993
+"RxNorm","Drug","Quant Clinical Drug",NA,"D",256
+"RxNorm","Drug","Quant Clinical Drug",NA,"U",155
+"RxNorm Extension","Drug","Brand Name",NA,"D",4191
+"RxNorm Extension","Drug","Brand Name",NA,"U",14013
+"RxNorm Extension","Drug","Brand Name",NA,NA,71257
+"RxNorm Extension","Drug","Branded Drug","S",NA,168155
+"RxNorm Extension","Drug","Branded Drug",NA,"D",1005
+"RxNorm Extension","Drug","Branded Drug",NA,"U",19307
+"RxNorm Extension","Drug","Branded Drug Box","S",NA,205465
+"RxNorm Extension","Drug","Branded Drug Box",NA,"D",2099
 "RxNorm Extension","Drug","Branded Drug Box",NA,"U",16140
-"RxNorm Extension","Drug","Branded Drug Comp","S",NA,118340
-"RxNorm Extension","Drug","Branded Drug Comp",NA,"D",2531
-"RxNorm Extension","Drug","Branded Drug Comp",NA,"U",16905
+"RxNorm Extension","Drug","Branded Drug Comp","S",NA,142531
+"RxNorm Extension","Drug","Branded Drug Comp",NA,"D",2632
+"RxNorm Extension","Drug","Branded Drug Comp",NA,"U",16837
 "RxNorm Extension","Drug","Branded Drug Comp",NA,NA,39
-"RxNorm Extension","Drug","Branded Drug Form","S",NA,95183
-"RxNorm Extension","Drug","Branded Drug Form",NA,"D",301
-"RxNorm Extension","Drug","Branded Drug Form",NA,"U",17475
-"RxNorm Extension","Drug","Branded Pack","S",NA,975
+"RxNorm Extension","Drug","Branded Drug Form","S",NA,115401
+"RxNorm Extension","Drug","Branded Drug Form",NA,"D",497
+"RxNorm Extension","Drug","Branded Drug Form",NA,"U",17346
+"RxNorm Extension","Drug","Branded Pack","S",NA,1280
 "RxNorm Extension","Drug","Branded Pack",NA,"D",237
-"RxNorm Extension","Drug","Branded Pack",NA,"U",96
-"RxNorm Extension","Drug","Branded Pack Box","S",NA,414
+"RxNorm Extension","Drug","Branded Pack",NA,"U",97
+"RxNorm Extension","Drug","Branded Pack Box","S",NA,624
 "RxNorm Extension","Drug","Branded Pack Box",NA,"U",21
-"RxNorm Extension","Drug","Brand Name",NA,"D",4188
-"RxNorm Extension","Drug","Brand Name",NA,"U",13979
-"RxNorm Extension","Drug","Brand Name",NA,NA,57081
-"RxNorm Extension","Drug","Clinical Drug","S",NA,65511
-"RxNorm Extension","Drug","Clinical Drug",NA,"D",1378
-"RxNorm Extension","Drug","Clinical Drug",NA,"U",1531
-"RxNorm Extension","Drug","Clinical Drug Box","S",NA,106215
-"RxNorm Extension","Drug","Clinical Drug Box",NA,"D",1236
+"RxNorm Extension","Drug","Clinical Drug","S",NA,75967
+"RxNorm Extension","Drug","Clinical Drug",NA,"D",1405
+"RxNorm Extension","Drug","Clinical Drug",NA,"U",1569
+"RxNorm Extension","Drug","Clinical Drug Box","S",NA,110043
+"RxNorm Extension","Drug","Clinical Drug Box",NA,"D",1263
 "RxNorm Extension","Drug","Clinical Drug Box",NA,"U",671
-"RxNorm Extension","Drug","Clinical Drug Comp","S",NA,59219
-"RxNorm Extension","Drug","Clinical Drug Comp",NA,"D",1565
-"RxNorm Extension","Drug","Clinical Drug Comp",NA,"U",1353
+"RxNorm Extension","Drug","Clinical Drug Comp","S",NA,65851
+"RxNorm Extension","Drug","Clinical Drug Comp",NA,"D",1629
+"RxNorm Extension","Drug","Clinical Drug Comp",NA,"U",1365
 "RxNorm Extension","Drug","Clinical Drug Comp",NA,NA,33
-"RxNorm Extension","Drug","Clinical Drug Form","S",NA,30240
-"RxNorm Extension","Drug","Clinical Drug Form",NA,"D",196
-"RxNorm Extension","Drug","Clinical Drug Form",NA,"U",1125
-"RxNorm Extension","Drug","Clinical Pack","S",NA,837
+"RxNorm Extension","Drug","Clinical Drug Form","S",NA,34272
+"RxNorm Extension","Drug","Clinical Drug Form",NA,"D",229
+"RxNorm Extension","Drug","Clinical Drug Form",NA,"U",1173
+"RxNorm Extension","Drug","Clinical Pack","S",NA,1091
 "RxNorm Extension","Drug","Clinical Pack",NA,"D",570
 "RxNorm Extension","Drug","Clinical Pack",NA,"U",24
-"RxNorm Extension","Drug","Clinical Pack Box","S",NA,373
+"RxNorm Extension","Drug","Clinical Pack Box","S",NA,492
 "RxNorm Extension","Drug","Clinical Pack Box",NA,"D",642
 "RxNorm Extension","Drug","Clinical Pack Box",NA,"U",10
 "RxNorm Extension","Drug","Dose Form",NA,"D",6
 "RxNorm Extension","Drug","Dose Form",NA,"U",15
-"RxNorm Extension","Drug","Dose Form",NA,NA,17
-"RxNorm Extension","Drug","Ingredient","S",NA,1539
+"RxNorm Extension","Drug","Dose Form",NA,NA,24
+"RxNorm Extension","Drug","Ingredient","S",NA,2060
 "RxNorm Extension","Drug","Ingredient",NA,"D",973
-"RxNorm Extension","Drug","Ingredient",NA,"U",252
+"RxNorm Extension","Drug","Ingredient",NA,"U",276
 "RxNorm Extension","Drug","Ingredient",NA,NA,3
-"RxNorm Extension","Drug","Marketed Product","S",NA,437184
-"RxNorm Extension","Drug","Marketed Product",NA,"D",12316
-"RxNorm Extension","Drug","Marketed Product",NA,"U",34419
+"RxNorm Extension","Drug","Marketed Product","S",NA,511839
+"RxNorm Extension","Drug","Marketed Product",NA,"D",12329
+"RxNorm Extension","Drug","Marketed Product",NA,"U",34406
 "RxNorm Extension","Drug","Marketed Product",NA,NA,32
-"RxNorm Extension","Drug","Quant Branded Box","S",NA,80938
+"RxNorm Extension","Drug","Quant Branded Box","S",NA,83632
 "RxNorm Extension","Drug","Quant Branded Box",NA,"D",746
 "RxNorm Extension","Drug","Quant Branded Box",NA,"U",14080
-"RxNorm Extension","Drug","Quant Branded Drug","S",NA,83773
+"RxNorm Extension","Drug","Quant Branded Drug","S",NA,93441
 "RxNorm Extension","Drug","Quant Branded Drug",NA,"D",829
-"RxNorm Extension","Drug","Quant Branded Drug",NA,"U",13441
-"RxNorm Extension","Drug","Quant Clinical Box","S",NA,69197
+"RxNorm Extension","Drug","Quant Branded Drug",NA,"U",13449
+"RxNorm Extension","Drug","Quant Clinical Box","S",NA,71408
 "RxNorm Extension","Drug","Quant Clinical Box",NA,"D",1022
 "RxNorm Extension","Drug","Quant Clinical Box",NA,"U",5900
-"RxNorm Extension","Drug","Quant Clinical Drug","S",NA,72004
+"RxNorm Extension","Drug","Quant Clinical Drug","S",NA,77564
 "RxNorm Extension","Drug","Quant Clinical Drug",NA,"D",1448
-"RxNorm Extension","Drug","Quant Clinical Drug",NA,"U",4139
+"RxNorm Extension","Drug","Quant Clinical Drug",NA,"U",4165
 "RxNorm Extension","Drug","Supplier",NA,"D",1785
 "RxNorm Extension","Drug","Supplier",NA,"U",697
-"RxNorm Extension","Drug","Supplier",NA,NA,5292
-"SNOMED","Condition","Clinical Finding","S",NA,108708
-"SNOMED","Condition","Clinical Finding",NA,"D",9098
-"SNOMED","Condition","Clinical Finding",NA,"U",43234
-"SNOMED","Condition","Clinical Finding",NA,NA,335
-"SNOMED","Device","Pharma/Biol Product","S",NA,200
-"SNOMED","Device","Pharma/Biol Product",NA,"D",3
-"SNOMED","Device","Pharma/Biol Product",NA,"U",191
-"SNOMED","Device","Physical Object","S",NA,184309
-"SNOMED","Device","Physical Object",NA,"D",368
-"SNOMED","Device","Physical Object",NA,"U",766
+"RxNorm Extension","Drug","Supplier",NA,NA,5895
+"SNOMED","Condition","Clinical Finding","S",NA,111816
+"SNOMED","Condition","Clinical Finding",NA,"D",9286
+"SNOMED","Condition","Clinical Finding",NA,"U",45240
+"SNOMED","Condition","Clinical Finding",NA,NA,334
+"SNOMED","Condition","Context-dependent","S",NA,6
+"SNOMED","Condition","Context-dependent",NA,NA,2
+"SNOMED","Device","Pharma/Biol Product","S",NA,2834
+"SNOMED","Device","Pharma/Biol Product",NA,"D",17
+"SNOMED","Device","Pharma/Biol Product",NA,"U",240
+"SNOMED","Device","Physical Object","S",NA,194823
+"SNOMED","Device","Physical Object",NA,"D",375
+"SNOMED","Device","Physical Object",NA,"U",858
 "SNOMED","Device","Qualifier Value","S",NA,32
 "SNOMED","Device","Qualifier Value",NA,"D",1
-"SNOMED","Device","Substance","S",NA,1262
-"SNOMED","Device","Substance",NA,"D",5
-"SNOMED","Device","Substance",NA,"U",12
-"SNOMED","Drug","Pharma/Biol Product",NA,"D",3362
-"SNOMED","Drug","Pharma/Biol Product",NA,"U",7457
-"SNOMED","Drug","Pharma/Biol Product",NA,NA,168325
+"SNOMED","Device","Substance","S",NA,1254
+"SNOMED","Device","Substance",NA,"D",21
+"SNOMED","Device","Substance",NA,"U",31
+"SNOMED","Drug","Clinical Drug",NA,"U",589
+"SNOMED","Drug","Clinical Drug",NA,NA,1943
+"SNOMED","Drug","Clinical Drug Form",NA,"D",7
+"SNOMED","Drug","Clinical Drug Form",NA,"U",28
+"SNOMED","Drug","Clinical Drug Form",NA,NA,5305
+"SNOMED","Drug","Dose Form",NA,"U",2
+"SNOMED","Drug","Pharma/Biol Product",NA,"D",3803
+"SNOMED","Drug","Pharma/Biol Product",NA,"U",12252
+"SNOMED","Drug","Pharma/Biol Product",NA,NA,180148
 "SNOMED","Drug","Physical Object",NA,NA,33
-"SNOMED","Drug","Qualifier Value",NA,"D",39
-"SNOMED","Drug","Qualifier Value",NA,"U",10
-"SNOMED","Drug","Qualifier Value",NA,NA,267
-"SNOMED","Drug","Substance",NA,"D",139
-"SNOMED","Drug","Substance",NA,"U",208
-"SNOMED","Drug","Substance",NA,NA,5946
-"SNOMED","Drug","Undefined",NA,NA,2366
-"SNOMED","Gender","Clinical Finding",NA,NA,10
-"SNOMED","Measurement","Clinical Finding","S",NA,3
-"SNOMED","Measurement","Clinical Finding",NA,"U",45
-"SNOMED","Measurement","Observable Entity","S",NA,257
-"SNOMED","Measurement","Observable Entity",NA,"U",4
-"SNOMED","Measurement","Procedure","S",NA,10910
-"SNOMED","Measurement","Procedure",NA,"D",3
-"SNOMED","Measurement","Procedure",NA,"U",64
+"SNOMED","Drug","Qualifier Value",NA,"D",40
+"SNOMED","Drug","Qualifier Value",NA,"U",44
+"SNOMED","Drug","Qualifier Value",NA,NA,432
+"SNOMED","Drug","Substance",NA,"D",165
+"SNOMED","Drug","Substance",NA,"U",280
+"SNOMED","Drug","Substance",NA,NA,6402
+"SNOMED","Drug","Undefined",NA,NA,1
+"SNOMED","Gender","Clinical Finding",NA,NA,11
 "SNOMED","Meas Value","Qualifier Value","S",NA,223
 "SNOMED","Meas Value","Qualifier Value",NA,"U",1
 "SNOMED","Meas Value Operator","Qualifier Value","S",NA,5
+"SNOMED","Measurement","Clinical Finding","S",NA,81
+"SNOMED","Measurement","Clinical Finding",NA,"U",45
+"SNOMED","Measurement","Clinical Finding",NA,NA,2
+"SNOMED","Measurement","Observable Entity","S",NA,465
+"SNOMED","Measurement","Observable Entity",NA,"U",4
+"SNOMED","Measurement","Procedure","S",NA,11098
+"SNOMED","Measurement","Procedure",NA,"D",4
+"SNOMED","Measurement","Procedure",NA,"U",127
+"SNOMED","Measurement","Staging / Scales","S",NA,2114
+"SNOMED","Measurement","Staging / Scales",NA,"U",23
 "SNOMED","Metadata","Inactive Concept",NA,NA,8
-"SNOMED","Metadata","Model Comp",NA,"D",104
+"SNOMED","Metadata","Model Comp",NA,"D",116
 "SNOMED","Metadata","Model Comp",NA,"U",1
-"SNOMED","Metadata","Model Comp",NA,NA,685
-"SNOMED","Metadata","Namespace Concept",NA,NA,220
-"SNOMED","Metadata","Navi Concept",NA,"U",13
-"SNOMED","Metadata","Navi Concept",NA,NA,110
+"SNOMED","Metadata","Model Comp",NA,NA,796
+"SNOMED","Metadata","Namespace Concept",NA,NA,245
+"SNOMED","Metadata","Navi Concept",NA,"D",5
+"SNOMED","Metadata","Navi Concept",NA,"U",26
+"SNOMED","Metadata","Navi Concept",NA,NA,93
 "SNOMED","Metadata","Special Concept",NA,NA,1
-"SNOMED","Metadata","Undefined",NA,NA,1
 "SNOMED","Observation","Admin Concept",NA,"D",56
 "SNOMED","Observation","Admin Concept",NA,"U",25
-"SNOMED","Observation","Attribute","S",NA,1080
+"SNOMED","Observation","Attribute","S",NA,1096
 "SNOMED","Observation","Attribute",NA,"D",5
-"SNOMED","Observation","Attribute",NA,"U",33
+"SNOMED","Observation","Attribute",NA,"U",34
 "SNOMED","Observation","Attribute",NA,NA,5
 "SNOMED","Observation","Biological Function",NA,"U",2
 "SNOMED","Observation","Body Structure",NA,"D",860
-"SNOMED","Observation","Body Structure",NA,"U",1430
-"SNOMED","Observation","Clinical Finding","S",NA,18391
-"SNOMED","Observation","Clinical Finding",NA,"D",232
-"SNOMED","Observation","Clinical Finding",NA,"U",809
-"SNOMED","Observation","Context-dependent","S",NA,6032
-"SNOMED","Observation","Context-dependent",NA,"D",1787
-"SNOMED","Observation","Context-dependent",NA,"U",5585
-"SNOMED","Observation","Context-dependent",NA,NA,20
-"SNOMED","Observation","Event","S",NA,1937
-"SNOMED","Observation","Event",NA,"D",97
-"SNOMED","Observation","Event",NA,"U",2159
+"SNOMED","Observation","Body Structure",NA,"U",1429
+"SNOMED","Observation","Clinical Finding","S",NA,18250
+"SNOMED","Observation","Clinical Finding",NA,"D",224
+"SNOMED","Observation","Clinical Finding",NA,"U",1271
+"SNOMED","Observation","Context-dependent","S",NA,5876
+"SNOMED","Observation","Context-dependent",NA,"D",1879
+"SNOMED","Observation","Context-dependent",NA,"U",6135
+"SNOMED","Observation","Context-dependent",NA,NA,21
+"SNOMED","Observation","Disposition","S",NA,364
+"SNOMED","Observation","Disposition",NA,"D",6
+"SNOMED","Observation","Disposition",NA,"U",4
+"SNOMED","Observation","Dose Form","S",NA,113
+"SNOMED","Observation","Event","S",NA,465
+"SNOMED","Observation","Event",NA,"D",1014
+"SNOMED","Observation","Event",NA,"U",2790
+"SNOMED","Observation","Event",NA,NA,1
 "SNOMED","Observation","Linkage Assertion","S",NA,9
-"SNOMED","Observation","Location","S",NA,1492
+"SNOMED","Observation","Location","S",NA,1494
 "SNOMED","Observation","Location",NA,"D",56
-"SNOMED","Observation","Location",NA,"U",113
-"SNOMED","Observation","Morph Abnormality","S",NA,4827
-"SNOMED","Observation","Morph Abnormality",NA,"D",443
-"SNOMED","Observation","Morph Abnormality",NA,"U",848
-"SNOMED","Observation","Observable Entity","S",NA,13805
+"SNOMED","Observation","Location",NA,"U",114
+"SNOMED","Observation","Morph Abnormality","S",NA,4886
+"SNOMED","Observation","Morph Abnormality",NA,"D",453
+"SNOMED","Observation","Morph Abnormality",NA,"U",968
+"SNOMED","Observation","Observable Entity","S",NA,14286
 "SNOMED","Observation","Observable Entity",NA,"D",55
-"SNOMED","Observation","Observable Entity",NA,"U",1219
+"SNOMED","Observation","Observable Entity",NA,"U",1290
 "SNOMED","Observation","Observable Entity",NA,NA,2
-"SNOMED","Observation","Organism","S",NA,34432
-"SNOMED","Observation","Organism",NA,"D",122
-"SNOMED","Observation","Organism",NA,"U",4006
-"SNOMED","Observation","Organism",NA,NA,97
+"SNOMED","Observation","Organism","S",NA,34972
+"SNOMED","Observation","Organism",NA,"D",114
+"SNOMED","Observation","Organism",NA,"U",4127
+"SNOMED","Observation","Organism",NA,NA,98
 "SNOMED","Observation","Patient Status",NA,"D",1
-"SNOMED","Observation","Pharma/Biol Product","S",NA,1797
-"SNOMED","Observation","Pharma/Biol Product",NA,"D",4846
-"SNOMED","Observation","Pharma/Biol Product",NA,"U",3122
+"SNOMED","Observation","Pharma/Biol Product","S",NA,19
+"SNOMED","Observation","Pharma/Biol Product",NA,"D",4896
+"SNOMED","Observation","Pharma/Biol Product",NA,"U",3049
 "SNOMED","Observation","Pharma/Biol Product",NA,NA,1
-"SNOMED","Observation","Physical Force","S",NA,197
-"SNOMED","Observation","Physical Force",NA,"U",7
-"SNOMED","Observation","Physical Object","S",NA,860
+"SNOMED","Observation","Physical Force","S",NA,196
+"SNOMED","Observation","Physical Force",NA,"U",8
+"SNOMED","Observation","Physical Object","S",NA,562
 "SNOMED","Observation","Physical Object",NA,"D",4
-"SNOMED","Observation","Physical Object",NA,"U",589
-"SNOMED","Observation","Procedure","S",NA,7361
-"SNOMED","Observation","Procedure",NA,"D",25
-"SNOMED","Observation","Procedure",NA,"U",197
-"SNOMED","Observation","Qualifier Value","S",NA,14086
-"SNOMED","Observation","Qualifier Value",NA,"D",471
-"SNOMED","Observation","Qualifier Value",NA,"U",1026
-"SNOMED","Observation","Qualifier Value",NA,NA,174
+"SNOMED","Observation","Physical Object",NA,"U",592
+"SNOMED","Observation","Procedure","S",NA,7412
+"SNOMED","Observation","Procedure",NA,"D",21
+"SNOMED","Observation","Procedure",NA,"U",243
+"SNOMED","Observation","Qualifier Value","S",NA,13705
+"SNOMED","Observation","Qualifier Value",NA,"D",522
+"SNOMED","Observation","Qualifier Value",NA,"U",1071
+"SNOMED","Observation","Qualifier Value",NA,NA,39
 "SNOMED","Observation","Record Artifact",NA,"D",63
 "SNOMED","Observation","Record Artifact",NA,"U",30
-"SNOMED","Observation","Social Context","S",NA,4274
-"SNOMED","Observation","Social Context",NA,"D",523
-"SNOMED","Observation","Social Context",NA,"U",2668
+"SNOMED","Observation","Social Context","S",NA,4358
+"SNOMED","Observation","Social Context",NA,"D",549
+"SNOMED","Observation","Social Context",NA,"U",2646
 "SNOMED","Observation","Social Context",NA,NA,1
 "SNOMED","Observation","Special Concept",NA,"D",28
 "SNOMED","Observation","Special Concept",NA,"U",2
 "SNOMED","Observation","Specimen",NA,"D",2
 "SNOMED","Observation","Specimen",NA,"U",123
-"SNOMED","Observation","Staging / Scales","S",NA,2027
+"SNOMED","Observation","Staging / Scales","S",NA,14
 "SNOMED","Observation","Staging / Scales",NA,"D",5
 "SNOMED","Observation","Staging / Scales",NA,"U",373
 "SNOMED","Observation","Staging / Scales",NA,NA,12
-"SNOMED","Observation","Substance","S",NA,20503
-"SNOMED","Observation","Substance",NA,"D",448
-"SNOMED","Observation","Substance",NA,"U",4083
+"SNOMED","Observation","Substance","S",NA,20346
+"SNOMED","Observation","Substance",NA,"D",510
+"SNOMED","Observation","Substance",NA,"U",4242
 "SNOMED","Observation","Substance",NA,NA,59
-"SNOMED","Observation","Undefined","S",NA,400
+"SNOMED","Observation","Undefined","S",NA,2
 "SNOMED","Observation","Undefined",NA,"D",105
 "SNOMED","Observation","Undefined",NA,"U",957
-"SNOMED","Observation","Undefined",NA,NA,1
 "SNOMED","Place of Service","Location",NA,"D",22
 "SNOMED","Place of Service","Location",NA,"U",1
-"SNOMED","Place of Service","Location",NA,NA,373
+"SNOMED","Place of Service","Location",NA,NA,375
 "SNOMED","Place of Service","Social Context",NA,NA,1
-"SNOMED","Procedure","Clinical Finding","S",NA,5
-"SNOMED","Procedure","Clinical Finding",NA,"U",2
-"SNOMED","Procedure","Procedure","S",NA,49936
-"SNOMED","Procedure","Procedure",NA,"D",4909
-"SNOMED","Procedure","Procedure",NA,"U",22909
-"SNOMED","Procedure","Procedure",NA,NA,52
-"SNOMED","Provider Specialty","Clinical Finding",NA,NA,2
-"SNOMED","Provider Specialty","Social Context",NA,"D",1
-"SNOMED","Provider Specialty","Social Context",NA,"U",1
-"SNOMED","Provider Specialty","Social Context",NA,NA,508
-"SNOMED","Race","Clinical Finding",NA,NA,1
+"SNOMED","Procedure","Clinical Finding","S",NA,4
+"SNOMED","Procedure","Clinical Finding",NA,"U",3
+"SNOMED","Procedure","Procedure","S",NA,50147
+"SNOMED","Procedure","Procedure",NA,"D",4917
+"SNOMED","Procedure","Procedure",NA,"U",23763
+"SNOMED","Procedure","Procedure",NA,NA,53
+"SNOMED","Provider","Clinical Finding",NA,NA,2
+"SNOMED","Provider","Social Context",NA,"D",1
+"SNOMED","Provider","Social Context",NA,"U",4
+"SNOMED","Provider","Social Context",NA,NA,508
+"SNOMED","Race","Clinical Finding",NA,NA,151
+"SNOMED","Race","Social Context",NA,"D",24
 "SNOMED","Race","Social Context",NA,"U",9
-"SNOMED","Race","Social Context",NA,NA,301
+"SNOMED","Race","Social Context",NA,NA,277
 "SNOMED","Relationship","Social Context","S",NA,194
 "SNOMED","Relationship","Social Context",NA,"U",4
-"SNOMED","Route","Qualifier Value","S",NA,183
-"SNOMED","Route","Qualifier Value",NA,"U",13
-"SNOMED","Spec Anatomic Site","Body Structure","S",NA,33589
-"SNOMED","Spec Anatomic Site","Body Structure",NA,"D",12
-"SNOMED","Spec Anatomic Site","Body Structure",NA,"U",214
+"SNOMED","Route","Qualifier Value","S",NA,181
+"SNOMED","Route","Qualifier Value",NA,"D",9
+"SNOMED","Route","Qualifier Value",NA,"U",14
+"SNOMED","Spec Anatomic Site","Body Structure","S",NA,34560
+"SNOMED","Spec Anatomic Site","Body Structure",NA,"D",14
+"SNOMED","Spec Anatomic Site","Body Structure",NA,"U",456
 "SNOMED","Spec Anatomic Site","Body Structure",NA,NA,7
 "SNOMED","Spec Disease Status","Qualifier Value","S",NA,3
-"SNOMED","Specimen","Specimen","S",NA,1799
-"SNOMED","Specimen","Specimen",NA,"U",12
+"SNOMED","Specimen","Specimen","S",NA,1805
+"SNOMED","Specimen","Specimen",NA,"U",16
 "SNOMED","Specimen","Specimen",NA,NA,4
 "SNOMED","Type Concept","Admin Concept",NA,NA,321
 "SNOMED","Type Concept","Clinical Finding",NA,NA,1
@@ -531,46 +718,92 @@
 "SNOMED","Type Concept","Procedure",NA,NA,1
 "SNOMED","Type Concept","Qualifier Value",NA,"D",1
 "SNOMED","Type Concept","Qualifier Value",NA,NA,170
-"SNOMED","Type Concept","Record Artifact",NA,"U",92
-"SNOMED","Type Concept","Record Artifact",NA,NA,1121
-"SNOMED","Unit","Qualifier Value","S",NA,160
-"SNOMED","Unit","Qualifier Value",NA,"U",76
-"Specialty","Provider Specialty","Specialty","S",NA,116
-"Specialty","Provider Specialty","Specialty",NA,"D",4
-"SPL","Device","Device","C",NA,1240
-"SPL","Drug","Animal Drug","C",NA,204
-"SPL","Drug","Cellular Therapy","C",NA,26
-"SPL","Drug","Ingredient","C",NA,703
-"SPL","Drug","Ingredient",NA,"D",5
-"SPL","Drug","Non-Stand Allergenic","C",NA,171
-"SPL","Drug","OTC Drug","C",NA,160220
-"SPL","Drug","OTC Drug",NA,"D",37
-"SPL","Drug","Plasma Derivative","C",NA,539
+"SNOMED","Type Concept","Record Artifact",NA,"U",95
+"SNOMED","Type Concept","Record Artifact",NA,NA,1221
+"SNOMED","Unit","Qualifier Value","S",NA,7
+"SNOMED","Unit","Qualifier Value",NA,"U",79
+"SNOMED","Unit","Qualifier Value",NA,NA,1300
+"SNOMED","Visit","Procedure",NA,NA,4
+"SPL","Device","Device","C",NA,1291
+"SPL","Drug","Animal Drug","C",NA,244
+"SPL","Drug","Cellular Therapy","C",NA,45
+"SPL","Drug","Ingredient","C",NA,1157
+"SPL","Drug","Ingredient",NA,"D",4
+"SPL","Drug","Non-Stand Allergenic","C",NA,265
+"SPL","Drug","Non-Stand Allergenic",NA,"D",7
+"SPL","Drug","OTC Drug","C",NA,279265
+"SPL","Drug","OTC Drug",NA,"D",58
+"SPL","Drug","Plasma Derivative","C",NA,853
 "SPL","Drug","Plasma Derivative",NA,"D",2
-"SPL","Drug","Prescription Drug","C",NA,115981
-"SPL","Drug","Prescription Drug",NA,"D",126
-"SPL","Drug","SPL",NA,"D",1
-"SPL","Drug","SPL",NA,"U",30
-"SPL","Drug","SPL",NA,NA,14687
-"SPL","Drug","Standard Allergenic","C",NA,90
-"SPL","Drug","Supplement","C",NA,384
-"SPL","Drug","Vaccine","C",NA,386
+"SPL","Drug","Prescription Drug","C",NA,189688
+"SPL","Drug","Prescription Drug",NA,"D",143
+"SPL","Drug","SPL",NA,NA,14677
+"SPL","Drug","Standard Allergenic","C",NA,130
+"SPL","Drug","Standard Allergenic",NA,"D",1
+"SPL","Drug","Supplement","C",NA,509
+"SPL","Drug","Vaccine","C",NA,664
 "SPL","Drug","Vaccine",NA,"D",1
-"SPL","Observation","Cosmetic","C",NA,102
+"SPL","Observation","Cosmetic","C",NA,117
 "SPL","Observation","Food","C",NA,16
 "Sponsor","Sponsor","Sponsor","S",NA,6
-"UB04 Point of Origin","Visit","UB04 Point of Origin","S",NA,10
+"Type Concept","Type Concept","Type Concept","S",NA,78
+"UB04 Point of Origin","Visit","UB04 Point of Origin",NA,NA,22
 "UB04 Pri Typ of Adm","Observation","UB04 Pri Typ of Adm","S",NA,6
-"UB04 Pt dis status","Visit","UB04 Pt dis status","S",NA,41
-"UB04 Typ bill","Visit","Frequency code",NA,NA,20
-"UB04 Typ bill","Visit","Full",NA,NA,247
-"UB04 Typ bill","Visit","Typ bill 3 digits",NA,NA,31
+"UB04 Pt dis status","Visit","UB04 Pt dis status",NA,NA,55
+"UB04 Typ bill","Observation","Observation",NA,NA,19
+"UB04 Typ bill","Visit","Visit","S",NA,4
+"UB04 Typ bill","Visit","Visit",NA,NA,275
 "UCUM","Unit","Canonical Unit","S",NA,35
-"UCUM","Unit","Unit","S",NA,851
-"UCUM","Unit","Unit",NA,"D",31
-"UCUM","Unit","Unit",NA,"U",59
-"VA Class","Drug","VA Class","C",NA,486
-"Visit","Visit","Visit","S",NA,12
-"Visit Type","Type Concept","Visit Type","S",NA,18
+"UCUM","Unit","Unit","S",NA,883
+"UCUM","Unit","Unit",NA,"D",32
+"UCUM","Unit","Unit",NA,"U",54
+"UK Biobank","Meas Value","Value","S",NA,2
+"UK Biobank","Meas Value","Value",NA,NA,2
+"UK Biobank","Measurement","Category","C",NA,45
+"UK Biobank","Measurement","Variable",NA,NA,2656
+"UK Biobank","Observation","Answer","S",NA,2038
+"UK Biobank","Observation","Answer",NA,NA,397
+"UK Biobank","Observation","Category","C",NA,246
+"UK Biobank","Observation","Precoordinated pair",NA,NA,358
+"UK Biobank","Observation","Question","S",NA,1002
+"UK Biobank","Observation","Question",NA,NA,121
+"UK Biobank","Observation","Value","S",NA,1308
+"UK Biobank","Observation","Value",NA,NA,9038
+"UK Biobank","Observation","Variable","S",NA,437
+"UK Biobank","Observation","Variable",NA,NA,787
+"US Census","Geography","US Census Division","S",NA,9
+"US Census","Geography","US Census Region","S",NA,4
+"Visit","Visit","Visit","S",NA,16
+"Visit Type","Type Concept","Visit Type",NA,NA,18
 "Vocabulary","Metadata","Vocabulary",NA,"D",1
-"Vocabulary","Metadata","Vocabulary",NA,NA,98
+"Vocabulary","Metadata","Vocabulary",NA,NA,136
+"dm+d","Device","AMP","S",NA,6125
+"dm+d","Device","AMP",NA,NA,85266
+"dm+d","Device","AMPP","S",NA,10252
+"dm+d","Device","AMPP",NA,NA,86729
+"dm+d","Device","Brand Name",NA,"D",18
+"dm+d","Device","Ingredient",NA,"D",2
+"dm+d","Device","Supplier",NA,"D",1
+"dm+d","Device","VMP","S",NA,2503
+"dm+d","Device","VMP",NA,NA,2773
+"dm+d","Device","VMPP","S",NA,4047
+"dm+d","Device","VMPP",NA,NA,4986
+"dm+d","Device","VTM",NA,"D",16
+"dm+d","Drug","AMP",NA,"D",1835
+"dm+d","Drug","AMP",NA,NA,49895
+"dm+d","Drug","AMPP",NA,"D",2200
+"dm+d","Drug","AMPP",NA,NA,60693
+"dm+d","Drug","Brand Name",NA,"D",5530
+"dm+d","Drug","Brand Name",NA,NA,6318
+"dm+d","Drug","Form",NA,"D",145
+"dm+d","Drug","Form",NA,NA,140
+"dm+d","Drug","Ingredient",NA,"D",2288
+"dm+d","Drug","Ingredient",NA,NA,2776
+"dm+d","Drug","Supplier",NA,"D",1014
+"dm+d","Drug","Supplier",NA,NA,749
+"dm+d","Drug","VMP",NA,"D",2622
+"dm+d","Drug","VMP",NA,NA,15865
+"dm+d","Drug","VMPP",NA,"D",498
+"dm+d","Drug","VMPP",NA,NA,23059
+"dm+d","Drug","VTM",NA,"D",3483
+"dm+d","Drug","VTM",NA,NA,10
